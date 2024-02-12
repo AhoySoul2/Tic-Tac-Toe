@@ -1,0 +1,38 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+    width: 300px;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 36px;
+    text-align: center;
+    line-height: 100px;
+    cursor: pointer;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#restart-btn {
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #ccc;
+    border: none;
+    cursor: pointer;
+}
